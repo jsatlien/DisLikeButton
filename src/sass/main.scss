@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 200px;
+  width: 200px;
+  margin: 20px auto;
+}
+
+.like-buttons {
+  height: 50px;
+  width: 100px;
+  padding: 10px 5px;
+  font-size: 14px;
+  color: white;
+  background-color: blue;
+  border-style: none;
+  margin: 5px;
+  border-radius: 5px;
+  border-bottom: 4px solid grey;
+  margin: 5px;
+  outline: none;
+}
+
+.like-buttons:active {
+  border-bottom: 0px;
+  outline: none;
+  transform: translateY(4px);
+
+}
